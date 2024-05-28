@@ -517,3 +517,7 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .undo-redo--cs .undo-redo__history .history__step:hover:before {
   background: #ff6f61;
 }
+
+.BeeButton_beeButton__SlzKf[title]:hover::after {
+  content: attr("asdfas");
+}
