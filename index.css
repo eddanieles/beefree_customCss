@@ -518,6 +518,6 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
   background: #ff6f61;
 }
 
-.BeeButton_beeButton__SlzKf[title]:hover::after {
+.undo-redo--cs undo-redo__toggleButton[title]:hover::after {
   content: attr("asdfas");
 }
