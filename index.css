@@ -518,6 +518,10 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
   background: #ff6f61;
 }
 
+[title="Emoticons"] {
+  background-color: blueviolet;
+}
+
 /* Target the element with data-qa="history-toggle-button" */
         [data-qa="history-toggle-button"] {
             position: relative;
