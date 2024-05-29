@@ -1,3 +1,7 @@
+[title="Emoticons"] {
+  background-color: #548763;
+}
+
 /*
   "--cs" for custom css override classes
 
@@ -516,10 +520,6 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .undo-redo--cs .undo-redo__history .history__step.history__step--focused:before,
 .undo-redo--cs .undo-redo__history .history__step:hover:before {
   background: #ff6f61;
-}
-
-[title="Emoticons"] {
-  background-color: blue;
 }
 
 /* Target the element with data-qa="history-toggle-button" */
