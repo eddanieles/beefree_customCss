@@ -570,6 +570,4 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
     opacity: 1;
 }
 
-.tab-content--cs .modules-wrapper .engage-helpBubble--cs {
-  display: none;
-}
+
