@@ -571,3 +571,51 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 
+
+/* Target the element with data-qa="history-toggle-button" */
+.sidebar__draggablewrapper--cs.sidebar__draggablewrapper--modules-social {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Tooltip text using ::after pseudo-element */
+.sidebar__draggablewrapper--cs.sidebar__draggablewrapper--modules-social::after {
+    content: "Social tile tooltip"; /* Tooltip text defined here */
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -80px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.sidebar__draggablewrapper--cs.sidebar__draggablewrapper--modules-social::before {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show the tooltip text when hovering over the tooltip container */
+.sidebar__draggablewrapper--cs.sidebar__draggablewrapper--modules-social:hover::after,
+.sidebar__draggablewrapper--cs.sidebar__draggablewrapper--modules-social:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
