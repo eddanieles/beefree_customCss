@@ -571,14 +571,14 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 /* Target the element with data-qa="history-toggle-button" */
-[data-qa="sidebar-module-paragraph"] .panel--cs{
+[data-qa="sidebar-module-heading"] .panel--cs{
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
 
 /* Tooltip text using ::after pseudo-element */
-[data-qa="sidebar-module-paragraph"] .panel--cs::after {
+[data-qa="sidebar-module-heading"] .panel--cs::after {
     content: "Foo bar"; /* Tooltip text defined here */
     visibility: hidden;
     width: 160px;
@@ -597,7 +597,7 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 /* Tooltip arrow */
-[data-qa="sidebar-module-paragraph"] .panel--cs::before {
+[data-qa="sidebar-module-heading"] .panel--cs::before {
     content: "";
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
@@ -612,8 +612,8 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 /* Show the tooltip text when hovering over the tooltip container */
-[data-qa="sidebar-module-paragraph"] .panel--cs:hover::after,
-[data-qa="sidebar-module-paragraph"] .panel--cs:hover::before {
+[data-qa="sidebar-module-heading"] .panel--cs:hover::after,
+[data-qa="sidebar-module-heading"] .panel--cs:hover::before {
     visibility: visible;
     opacity: 1;
 }
