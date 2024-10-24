@@ -620,6 +620,10 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
     opacity: 1;
 }
 
+.filemanager__button__freephotos--cs {
+    visibility: hidden;
+}
+
 .filemanager__button__deleteall--cs {
     visibility: hidden;
 }
