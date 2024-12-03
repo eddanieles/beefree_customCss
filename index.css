@@ -627,3 +627,11 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .filemanager__button__deleteall--cs {
     visibility: hidden;
 }
+
+.filemanager__button__upload--cs {
+    visibility: hidden;
+}
+
+.filemanager__button__import--cs {
+    visibility: hidden;
+}
