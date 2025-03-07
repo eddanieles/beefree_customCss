@@ -635,3 +635,7 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .filemanager__button__import--cs {
     visibility: hidden;
 }
+
+.paragraph-container--cs {
+    visibility: hidden;
+}
