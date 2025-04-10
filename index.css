@@ -617,5 +617,5 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 .row-display-condition-edit-button--cs {
-    display: none !important;
+    display: none;
 }
