@@ -641,5 +641,5 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 .row-display-condition-edit-button--cs {
-    visibility: hidden;
+    display: none;
 }
