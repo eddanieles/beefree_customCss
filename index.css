@@ -619,3 +619,11 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .row-display-condition-edit-button--cs {
     display: none;
 }
+
+.btn-primary {
+	border-radius: 50px;
+	font-weight: 400;
+	color: #515658;
+	background-color: #ffc400;
+	border-color: #ffc400;
+}
