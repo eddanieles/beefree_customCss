@@ -624,6 +624,10 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 	display: none;
 }
 
+.preview-language--cs {
+	display: none;
+}
+
 .btn-primary {
 	border-radius: 50px;
 	font-weight: 400;
