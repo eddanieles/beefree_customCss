@@ -629,7 +629,7 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 }
 
 .image-selector-url-input--cs {
-	display: none;
+	visibility: hidden;
 }
 
 .btn-primary {
